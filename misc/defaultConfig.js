@@ -12,7 +12,7 @@ var ftp = {
 
 var rsync = {
     name: 'Rsync on changes',
-    command: 'rsync -aP --delete --exclude "node_modules" "./" "server:/path/to/destination"'
+    command: 'rsync -aP --exclude "node_modules" "./" "server:/path/to/destination"'
 };
 
 var sass = {
