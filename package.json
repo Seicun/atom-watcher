@@ -1,0 +1,25 @@
+{
+  "name": "atom-watcher",
+  "main": "./lib/atom-watcher.js",
+  "version": "1.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "repository": "https://github.com/atom/atom-watcher",
+  "author": "Kob",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "ansi-to-html": "^0.3.0",
+    "atom-space-pen-views": "^2.0.3",
+    "node-watcher": "http://kob.webbls.com/npm/node-watcher.tgz"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  }
+}
