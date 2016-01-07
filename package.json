@@ -5,7 +5,9 @@
   "description": "Run user defined commands on file changes. This package utilizes the node-watch-changes package and integrates it into the Atom editor.",
   "keywords": [
     "watch",
-    "command"
+    "watcher",
+    "command",
+    "change"
   ],
   "repository": "https://github.com/Seicun/atom-watcher",
   "author": "Markus Kobisch",
