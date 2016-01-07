@@ -2,7 +2,7 @@
 
 Run user defined commands on file changes. This package utilizes the [node-watch-changes](https://www.npmjs.com/package/node-watch-changes) package and integrates it into the Atom editor.
 
-![Watcher output](./misc/output.jpg)
+![Watcher output](https://raw.githubusercontent.com/Seicun/atom-watcher/master/misc/output.jpg)
 
 ## Installation
 `apm install atom-watcher`
