@@ -13,7 +13,7 @@
   "dependencies": {
     "ansi-to-html": "^0.3.0",
     "atom-space-pen-views": "^2.0.3",
-    "node-watcher": "http://kob.webbls.com/npm/node-watcher.tgz"
+    "node-watch-changes": "^1.0.1"
   },
   "consumedServices": {
     "status-bar": {
