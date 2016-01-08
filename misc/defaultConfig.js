@@ -26,6 +26,7 @@ var config = {
         /\.git/
     ],
     delay: 1000,
+    verbosity: 'normal', // Possible values are: minimal, normal, verbose
     commandsOnStart: [
         sass
     ],
