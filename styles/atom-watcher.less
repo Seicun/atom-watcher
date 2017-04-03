@@ -7,103 +7,103 @@
 
 
 .atomWatcher {
-    height: 260px;
-    min-height: @titleBarHeight;
-    // border: 1px solid @base-border-color;
-    border-top: none;
+	height: 260px;
+	min-height: @titleBarHeight;
+	// border: 1px solid @base-border-color;
+	border-top: none;
 
 
-    .noSelect {
-        -webkit-touch-callout: none;
-        -webkit-user-select: none;
-        -khtml-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-    }
+	.noSelect {
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
 
 
-    pre {
-        background: transparent;
-        font-size: @font-size;
-        padding: 0;
-    }
+	pre {
+		background: transparent;
+		font-size: @font-size;
+		padding: 0;
+	}
 
 
-    .titleBar {
-        height: @titleBarHeight;
-        position: relative;
-        border-bottom: 1px solid @base-border-color;
-        cursor: ns-resize;
-        text-align: center;
-        padding-top: 2px;
-        color: @text-color;
+	.titleBar {
+		height: @titleBarHeight;
+		position: relative;
+		border-bottom: 1px solid @base-border-color;
+		cursor: ns-resize;
+		text-align: center;
+		padding-top: 2px;
+		color: @text-color;
 
 
-        ul.controls {
-            position: absolute;
-            left: 10px;
-            top: 2px;
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
+		ul.controls {
+			position: absolute;
+			left: 10px;
+			top: 2px;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
 
 
-            li {
-                display: inline;
-                opacity: 0.6;
+			li {
+				display: inline;
+				opacity: 0.6;
 
-                &:hover {
-                    cursor: pointer;
-                    opacity: 1;
-                }
-
-
-                &.toggle.started {
-                    color: @text-color-success;
-                }
+				&:hover {
+					cursor: pointer;
+					opacity: 1;
+				}
 
 
-                &.toggle.stopped {
-                    color: @text-color-error;
-                }
-            }
-        }
+				&.toggle.started {
+					color: @text-color-success;
+				}
 
 
-        .closeButton {
-            position: absolute;
-            top: 2px;
-            right: 10px;
-            opacity: 0.6;
-
-            &:hover {
-                cursor: pointer;
-                opacity: 1;
-            }
-        }
-    }
+				&.toggle.stopped {
+					color: @text-color-error;
+				}
+			}
+		}
 
 
-    .content {
-        padding: 10px;
-        height: 100%;
-        overflow-y: auto;
-    }
+		.closeButton {
+			position: absolute;
+			top: 2px;
+			right: 10px;
+			opacity: 0.6;
+
+			&:hover {
+				cursor: pointer;
+				opacity: 1;
+			}
+		}
+	}
+
+
+	.content {
+		padding: 10px;
+		height: 100%;
+		overflow-y: auto;
+	}
 }
 
 
 .atomWatcherStatusBarIcon {
-    color: @text-color-info;
-    cursor: pointer;
+	color: @text-color-info;
+	cursor: pointer;
 
 
-    &.started {
-        color: @text-color-success;
-    }
+	&.started {
+		color: @text-color-success;
+	}
 
 
-    &.stopped {
-        color: @text-color-error;
-    }
+	&.stopped {
+		color: @text-color-error;
+	}
 }

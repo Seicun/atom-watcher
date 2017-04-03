@@ -1,22 +1,16 @@
 # See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
 'context-menu':
-  'atom-text-editor': [
-    {
-      'label': 'Watcher Test'
-      'command': 'atom-watcher:start'
-    }
-  ]
-'menu': [
-  {
-    'label': 'Packages'
-    'submenu': [
-      'label': 'Atom Watcher'
-      'submenu': [
-        {
-          'label': 'Toggle'
-          'command': 'atom-watcher:toggle'
-        }
-      ]
-    ]
-  }
+	'atom-text-editor': [{
+		'label': 'Watcher Test'
+		'command': 'atom-watcher:start'
+	}]
+'menu': [{
+	'label': 'Packages'
+	'submenu': [
+		'label': 'Atom Watcher'
+		'submenu': [{
+			'label': 'Toggle'
+			'command': 'atom-watcher:toggle'
+		}]
+	]}
 ]
