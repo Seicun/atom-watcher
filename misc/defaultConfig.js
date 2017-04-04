@@ -12,6 +12,7 @@ var ftp = {
 
 var rsync = {
 	name: 'Rsync on changes',
+	sync: true,
 	command: 'rsync -aP --exclude "node_modules" "./" "server:/path/to/destination"'
 };
 
@@ -25,7 +26,8 @@ var config = {
 		/node_modules/,
 		/\.git/
 	],
-	delay: 1000,
+	delay: 1000, // Delay the execution of the commands on change in ms
+	sync: false, // Default value for all commands that don't specify a sync property themselves. An exception are the commands on end, which will always run synchronously to ensure a proper clean up.
 	verbosity: 'normal', // Possible values are: minimal, normal, verbose
 	commandsOnStart: [
 		sass
