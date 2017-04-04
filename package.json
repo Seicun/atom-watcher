@@ -1,7 +1,7 @@
 {
   "name": "atom-watcher",
   "main": "./lib/atom-watcher.js",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "Run user defined commands on file changes. This package utilizes the node-watch-changes package and integrates it into the Atom editor.",
   "keywords": [
     "watch",
