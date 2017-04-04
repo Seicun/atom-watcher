@@ -9,7 +9,7 @@
     "command",
     "change"
   ],
-  "repository": "https://github.com/Seicun/atom-watcher",
+  "repository": "https://github.com/maevic/atom-watcher",
   "author": "Markus Kobisch",
   "license": "MIT",
   "engines": {
