@@ -11,6 +11,9 @@
 		'submenu': [{
 			'label': 'Toggle'
 			'command': 'atom-watcher:toggle'
+		}, {
+			'label': 'Toggle Output'
+			'command': 'atom-watcher:toggle-output'
 		}]
 	]}
 ]
